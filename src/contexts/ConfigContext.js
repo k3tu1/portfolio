@@ -23,7 +23,7 @@ const initialState = {
 const ConfigContext = createContext(initialState);
 
 function ConfigProvider({ children }) {
-    const [config, setConfig] = useLocalStorage('berry-config', {
+    const [config, setConfig] = useLocalStorage('myConfig', {
         fontFamily: initialState.fontFamily,
         borderRadius: initialState.borderRadius,
         outlinedFilled: initialState.outlinedFilled,
@@ -34,6 +34,7 @@ function ConfigProvider({ children }) {
     });
 
     const onChangeMenuType = (navType) => {
+        console.log('navType', navType);
         setConfig({
             ...config,
             navType

@@ -10,7 +10,7 @@ import { BASE_PATH } from 'config';
 import { store } from 'store';
 import * as serviceWorker from 'serviceWorker';
 import reportWebVitals from 'reportWebVitals';
-
+import { ConfigProvider } from 'contexts/ConfigContext';
 // style + assets
 import 'assets/scss/style.scss';
 
@@ -18,9 +18,11 @@ import 'assets/scss/style.scss';
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter basename={BASE_PATH}>
-            <App />
-        </BrowserRouter>
+        <ConfigProvider>
+            <BrowserRouter basename={BASE_PATH}>
+                <App />
+            </BrowserRouter>
+        </ConfigProvider>
     </Provider>,
     document.getElementById('root')
 );

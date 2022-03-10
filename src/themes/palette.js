@@ -38,7 +38,6 @@ const Palette = (navType, presetColor) => {
             colors = defaultColor;
     }
     colors = theme3;
-    navType = 'light';
     return createTheme({
         palette: {
             mode: navType,
