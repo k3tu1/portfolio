@@ -1,6 +1,7 @@
 {
     "name": "my-portfolio",
     "version": "3.1.0",
+    "homepage": "https://k3tu1.github.io/portfolio/",
     "private": true,
     "dependencies": {
         "@auth0/auth0-spa-js": "^1.19.4",
