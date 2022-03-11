@@ -9,7 +9,7 @@ import Typewriter from 'typewriter-effect';
 import { gridSpacing } from 'store/constant';
 
 // assets
-import widget1 from 'assets/images/Image.png';
+import widget1 from 'assets/images/Image_1.png';
 
 const HeaderAnimationImage = styled('img')({
     maxWidth: '100%',
