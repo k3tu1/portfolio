@@ -118,9 +118,9 @@ const HeaderPage = () => {
                     <Box sx={{ position: 'relative' }}>
                         <Box
                             sx={{
-                                // position: 'absolute',
-                                // top: '-110px',
-                                // right: theme.direction === 'rtl' ? '170px' : '-170px',
+                                position: 'absolute',
+                                top: '-285px',
+                                right: theme.direction === 'rtl' ? '170px' : '-190px',
                                 width: '490px',
                                 animation: '10s slideY linear infinite'
                             }}
