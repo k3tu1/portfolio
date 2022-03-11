@@ -9,5 +9,5 @@ const PagesLanding = Loadable(lazy(() => import('views/pages/')));
 // ==============================|| ROUTING RENDER ||============================== //
 
 export default function ThemeRoutes() {
-    return useRoutes([{ path: '/', element: <PagesLanding /> }]);
+    return useRoutes([{ path: '*', element: <PagesLanding /> }]);
 }
