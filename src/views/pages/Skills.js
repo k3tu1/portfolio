@@ -22,6 +22,7 @@ import mongoIcon from 'assets/images/mongo.svg';
 import realmIcon from 'assets/images/realm.svg';
 import muiIcon from 'assets/images/mui.svg';
 import dockerIcon from 'assets/images/docker.svg';
+import reactIcon from 'assets/images/react.svg';
 
 // ============================|| LANDING - KEY FEATURE PAGE ||============================ //
 
@@ -49,6 +50,10 @@ const skills = [
     {
         name: 'Node.js',
         icon: nodeIcon
+    },
+    {
+        name: 'React.js',
+        icon: reactIcon
     },
     {
         name: 'Google Tag Manager',
