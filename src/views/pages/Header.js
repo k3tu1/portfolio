@@ -71,10 +71,10 @@ const HeaderPage = () => {
                                         <Typewriter
                                             options={{
                                                 strings: [
+                                                    'The Digital Analyst.',
                                                     'The Problem Solver.',
                                                     'The Full Stack Developer.',
-                                                    'The Programer.',
-                                                    'The Digital Analyst.'
+                                                    'The Programer.'
                                                 ],
                                                 autoStart: true,
                                                 loop: true,

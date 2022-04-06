@@ -1,6 +1,6 @@
 // material-ui
 import { useTheme } from '@mui/material/styles';
-import { Avatar, Button, Container, Grid, Link, Typography, Card, CardContent } from '@mui/material';
+import { Avatar, Button, Container, Grid, Link, Typography, Card, CardContent, Tooltip } from '@mui/material';
 
 // project imports
 import FadeInWhenVisible from './Animation';
@@ -123,27 +123,29 @@ const SkillPage = () => {
                         <Grid item xs={12}>
                             <Grid container justifyContent="center" spacing={gridSpacing}>
                                 {skills.map((skill, i) => (
-                                    <Grid item lg={3} md={4} xs={12} sm={6} key={i}>
-                                        <SubCard>
-                                            <Grid container alignItems="center" spacing={2}>
-                                                <Grid item>
-                                                    <Avatar
-                                                        variant="rounded"
-                                                        sx={{
-                                                            ...avatarIconSx,
-                                                            bgcolor: 'transparent',
-                                                            // theme.palette.mode === 'dark' ? theme.palette.dark[800] : 'primary.light',
-                                                            color: theme.palette.primary.main
-                                                        }}
-                                                        src={skill.icon}
-                                                    />
+                                    <Tooltip title={skill.name} arrow>
+                                        <Grid item lg={3} md={4} xs={12} sm={6} key={i}>
+                                            <SubCard>
+                                                <Grid container alignItems="center" spacing={2}>
+                                                    <Grid item>
+                                                        <Avatar
+                                                            variant="rounded"
+                                                            sx={{
+                                                                ...avatarIconSx,
+                                                                bgcolor: 'transparent',
+                                                                // theme.palette.mode === 'dark' ? theme.palette.dark[800] : 'primary.light',
+                                                                color: theme.palette.primary.main
+                                                            }}
+                                                            src={skill.icon}
+                                                        />
+                                                    </Grid>
+                                                    <Grid item xs zeroMinWidth>
+                                                        <Typography variant="h3">{skill.name}</Typography>
+                                                    </Grid>
                                                 </Grid>
-                                                <Grid item xs zeroMinWidth>
-                                                    <Typography variant="h3">{skill.name}</Typography>
-                                                </Grid>
-                                            </Grid>
-                                        </SubCard>
-                                    </Grid>
+                                            </SubCard>
+                                        </Grid>
+                                    </Tooltip>
                                 ))}
                             </Grid>
                         </Grid>
