@@ -51,7 +51,7 @@ const workExpData = [
     },
     {
         position: 'Software Engineer',
-        duration: 'May 2021 - Present',
+        duration: 'May 2021 - April 2022',
         companyName: 'Maestro Digital Mine',
         location: 'Sudbury, Ontario, Canada',
         description: 'Key Job Role',
@@ -60,6 +60,14 @@ const workExpData = [
             'Cloud based application development to support product deployment with customers.',
             'IOT Application development with react and nodejs'
         ]
+    },
+    {
+        position: 'Senior Implementation Specialist',
+        duration: 'April 2022 - Present',
+        companyName: 'Napkyn Analytics',
+        location: 'Ottawa, Ontario, Canada',
+        description: 'Key Job Role',
+        tech: ['Google Analytics', 'Google Tag Manager', 'Google Data Studio']
     }
 ];
 // =============================|| LANDING - LAYOUTS PAGE ||============================= //
