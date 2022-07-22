@@ -40,10 +40,7 @@ const workExpData = [
         location: 'Ahmedabad, India',
         description: "What I've done",
         tech: [
-            'Experties in Google Analytics',
-            'Google Analytics',
-            'Google Tag Manager',
-            'Google Data Studio',
+            'Experties in Google Analytics, Google Tag Manager, Google Data Studio, Google Optimize',
             'Developed wireframes, site maps and content inventories for new website designs.',
             'Applied honed problem-solving skills to analyze and resolve issues impacting business operations and goal achievement.',
             'Create Sunburst chart to show user jouney'
@@ -56,9 +53,13 @@ const workExpData = [
         location: 'Sudbury, Ontario, Canada',
         description: 'Key Job Role',
         tech: [
+            'Design client-side and server-side architectures for web applications',
+            'Build the front-end of applications through appealing visual design and user-friendly interfaces',
+            'Write effective APIs',
             'Firmware development for new products, as well as maintenance of existing code base.',
             'Cloud based application development to support product deployment with customers.',
-            'IOT Application development with react and nodejs'
+            'IOT Application development with react and nodejs',
+            'Work with data scientists and analysts to improve software development and data analysis.'
         ]
     },
     {
@@ -67,7 +68,18 @@ const workExpData = [
         companyName: 'Napkyn Analytics',
         location: 'Ottawa, Ontario, Canada',
         description: 'Key Job Role',
-        tech: ['Google Analytics', 'Google Tag Manager', 'Google Data Studio']
+        tech: [
+            'Actively participate in an account service role.',
+            'Stay up to date with industry trends (tooling and strategic).',
+            'Perform client-facing tasks such as presenting insights or providing training.',
+            'Identify, gather, and analyze information from various large, complex data sets to understand consumer behaviour and market trends.',
+            'Perform in-depth analysis and reporting and provide actionable recommendations in line with client goals.',
+            ' Gather measurement requirements from a variety of different stakeholders and determine how best to capture them.',
+            'Provide implementation guidance and troubleshooting.',
+            'Fulfill ad-hoc data analysis requests to answer business questions and enable effective decision-making.',
+            'Work with internal and external teams to identify areas of opportunity to grow, increase profitability, and optimize program effectiveness.',
+            'Help define and implement analytics best practices and standard operating procedures by documenting work processes and making recommendations to improve current analytics capabilities.'
+        ]
     }
 ];
 // =============================|| LANDING - LAYOUTS PAGE ||============================= //
