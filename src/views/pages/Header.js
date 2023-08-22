@@ -106,9 +106,7 @@ const HeaderPage = () => {
                                         lineHeight: 1.4
                                     }}
                                 >
-                                    Hello, I&apos;m Full-Stack Web Developer who loves building creative websites. I enjoy turning complex
-                                    problems into simple. I love programming, gaming, traveling. I write in JavaScript, CSS, HTML, Python
-                                    and PHP. I also can speak to databases and make servers do stuff.
+                                    Hey there, I&apos;m not just your average Full-Stack Web Developer – I'm a creator of digital wonders. I thrive on transforming intricate challenges into elegant solutions. When I'm not weaving code, you'll find me conquering virtual realms, jet-setting to new destinations, and crafting experiences that push boundaries. My languages of choice? JavaScript, CSS, HTML, Python, and PHP. I'm not just fluent in tech, I have conversations with databases and coax servers into performing extraordinary feats.
                                 </Typography>
                             </motion.div>
                         </Grid>
