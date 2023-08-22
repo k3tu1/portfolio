@@ -106,7 +106,7 @@ const HeaderPage = () => {
                                         lineHeight: 1.4
                                     }}
                                 >
-                                    Hey there, I&apos;m not just your average Full-Stack Web Developer – I'm a creator of digital wonders. I thrive on transforming intricate challenges into elegant solutions. When I'm not weaving code, you'll find me conquering virtual realms, jet-setting to new destinations, and crafting experiences that push boundaries. My languages of choice? JavaScript, CSS, HTML, Python, and PHP. I'm not just fluent in tech, I have conversations with databases and coax servers into performing extraordinary feats.
+                                    Hey there, I&apos;m not just your average Full-Stack Web Developer – I&apos;m a creator of digital wonders. I thrive on transforming intricate challenges into elegant solutions. When I&apos;m not weaving code, you&apos;ll find me conquering virtual realms, jet-setting to new destinations, and crafting experiences that push boundaries. My languages of choice? JavaScript, CSS, HTML, Python, and PHP. I&apos;m not just fluent in tech, I have conversations with databases and coax servers into performing extraordinary feats.
                                 </Typography>
                             </motion.div>
                         </Grid>
